@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1466667791495452112}
   m_Layer: 0
   m_Name: Tent
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +28,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9062450268204392735}
   - {fileID: 1860666948744262439}
+  - {fileID: 9062450268204392735}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 1860666948744262439}
   - component: {fileID: 7028620434222799238}
   - component: {fileID: 4065618873921587698}
-  - component: {fileID: 8137536735803382777}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -65,7 +64,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1466667791495452112}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7028620434222799238
 MeshFilter:
@@ -117,20 +116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8137536735803382777
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5759100678962421627}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &8813249786486064884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -140,7 +125,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f48e5380b8b033b4faaf7765b65ad845, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f48e5380b8b033b4faaf7765b65ad845, type: 3}
       propertyPath: m_LocalScale.x

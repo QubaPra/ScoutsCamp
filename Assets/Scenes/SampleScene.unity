@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tent
       objectReference: {fileID: 0}
+    - target: {fileID: 5249882562117485626, guid: c8d5ba0c7cc9279499f4ab158e8327ee, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762711389651980617, guid: c8d5ba0c7cc9279499f4ab158e8327ee, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8d5ba0c7cc9279499f4ab158e8327ee, type: 3}
 --- !u!1 &519420028
@@ -12540,5 +12548,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 34.483925, y: 37.788254, z: 0}
-  m_Center: {x: -7.2453575, y: 4.175911, z: 2.4998585e-15}
+  m_Size: {x: 30.964737, y: 33.9643, z: 0.1}
+  m_Center: {x: -6.976982, y: 4.3538494, z: 0.01}
