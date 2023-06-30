@@ -1,13 +1,33 @@
 fileFormatVersion: 2
-guid: c08b259922483f044833418763566ce2
+guid: 06c4797b529fbaa49b1f9c177235cec2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Dark
+    second: {fileID: 2100000, guid: d3db0628824af1848aedccb0c2fbd59e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone_Light
+    second: {fileID: 2100000, guid: 9f337b9d56cfc9a499f8c9d3e84b48fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: b48eb4b28ff707b47a26173b05d8bbc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodSide
+    second: {fileID: 2100000, guid: 3a317acb2ac3b394180ebfa2416d3858, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 1
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
