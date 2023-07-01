@@ -656,7 +656,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 90cd84dbb175d814c842fb7e017e8379, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &889951455
 Terrain:
   m_ObjectHideFlags: 0
