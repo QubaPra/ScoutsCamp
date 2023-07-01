@@ -3,8 +3,8 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     private Vector3 touchStart;
-    public float zoomOutMin = 5;
-    public float zoomOutMax = 12;
+    public float zoomOutMin = 4;
+    public float zoomOutMax = 20;
     public float moveSpeed = 5;
     private float originalYPosition;
 

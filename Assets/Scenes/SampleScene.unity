@@ -174,11 +174,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 100
+  near clip plane: -9
+  far clip plane: 75
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9619d2644445b43881e27ca1378d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomOutMin: 5
-  zoomOutMax: 12
+  zoomOutMin: 4
+  zoomOutMax: 20
   moveSpeed: 5
 --- !u!1 &410087039
 GameObject:
@@ -667,11 +667,11 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 90cd84dbb175d814c842fb7e017e8379, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeDistance: 75
+  m_TreeBillboardDistance: 200
+  m_TreeCrossFadeLength: 20
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 75
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
