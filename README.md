@@ -20,3 +20,5 @@ Make your scout camp! Buy new tents and upgrade them, expand your area, do activ
  - [ ] plundering neighboring camps
  - [ ] upgrading places
  - [ ] expanding area
+
+![](https://github.com/QubaPra/ScoutsCamp/blob/main/screenshot.png)
